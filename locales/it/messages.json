@@ -2290,6 +2290,15 @@
             "english": "SRXL"
         }
     },
+    "portsFunction_TELEMETRY_JRDMSS": {
+        "message": "Telemetry: JR DMSS",
+        "english": "Telemetry: JR DMSS",
+        "status": "Modified entry. Please translate!",
+        "previous": {
+            "message": "JRDMSS",
+            "english": "JRDMSS"
+        }
+    },
     "portsFunction_ESC_SENSOR": {
         "message": "ESC Telemetry",
         "english": "ESC Telemetry",

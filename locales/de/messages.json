@@ -1838,6 +1838,10 @@
         "message": "Telemetrie: Spektrum SRXL",
         "english": "Telemetry: Spektrum SRXL"
     },
+    "portsFunction_TELEMETRY_JRDMSS": {
+        "message": "Telemetrie: JR DMSS",
+        "english": "Telemetry: JR DMSS"
+    },
     "portsFunction_ESC_SENSOR": {
         "message": "ESC Telemetrie",
         "english": "ESC Telemetry"

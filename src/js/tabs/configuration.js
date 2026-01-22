@@ -271,6 +271,7 @@ tab.initialize = function (callback) {
         { id: 8,     excl: 4668,    name: 'TELEMETRY_HOTT',       type: portTypes.TELEM },
         { id: 512,   excl: 4668,    name: 'TELEMETRY_MAVLINK',    type: portTypes.MAVLINK },
         { id: 16,    excl: 4668,    name: 'TELEMETRY_LTM',        type: portTypes.TELEM },
+        { id: 1048576, excl: 1048576, name: 'TELEMETRY_JRDMSS',   type: portTypes.TELEM },
         //{ id: 2048,  excl: 10240,   name: 'TBS_SMARTAUDIO',       type: portTypes.AUTO },
         //{ id: 8192,  excl: 10240,   name: 'IRC_TRAMP',            type: portTypes.AUTO },
         //{ id: 16384, excl: 16384,   name: 'RUNCAM',               type: portTypes.AUTO },

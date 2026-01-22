@@ -55,6 +55,7 @@ export function MspHelper() {
         'FRSKY_OSD': 16,
         'SBUS_OUT': 18,
         'FBUS_OUT': 19,
+        'TELEMETRY_JRDMSS': 20, 
     };
 
     self.REBOOT_TYPES = {

@@ -194,6 +194,7 @@ export const RX_PROTOCOLS = [
     name: "JR XBUS Mode A",
     id: 18,
     feature: "RX_SERIAL",
+    telemetry: { type: TelemetryType.TOGGLE },
     get hide() {
       return semver.lt(FC.CONFIG.apiVersion, API_VERSION_12_8);
     },
@@ -202,6 +203,10 @@ export const RX_PROTOCOLS = [
     name: "JR XBUS Mode B",
     id: 5,
     feature: "RX_SERIAL",
+    telemetry: { type: TelemetryType.TOGGLE },
+    get hide() {
+      return semver.lt(FC.CONFIG.apiVersion, API_VERSION_12_8);
+    },
   },
   {
     name: "JR XBUS/RJ01",
@@ -330,6 +335,11 @@ export const EXTERNAL_TELEMETRY_PROTOCOLS = [
   {
     name: "LTM",
     id: 16,
+    telemetry: { type: TelemetryType.TOGGLE, external: true },
+  },
+  {
+    name: "JR XBUS",
+    id: 1048576,
     telemetry: { type: TelemetryType.TOGGLE, external: true },
   },
 ];

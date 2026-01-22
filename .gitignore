@@ -35,3 +35,8 @@ nbproject/
 # Eclipse
 .project
 .settings/
+/.vs
+/diff.patch
+/.gitignore
+/.gitignore
+/.gitignore

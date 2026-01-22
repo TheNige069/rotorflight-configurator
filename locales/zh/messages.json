@@ -2282,6 +2282,11 @@
         "english": "Telemetry: Spektrum SRXL",
         "status": "New entry. Please translate!"
     },
+    "portsFunction_TELEMETRY_JRDMSS": {
+        "message": "Telemetry: JR DMSS",
+        "english": "Telemetry: JR DMSS",
+        "status": "New entry. Please translate!"
+    },
     "portsFunction_ESC_SENSOR": {
         "message": "ESC Telemetry",
         "english": "ESC Telemetry",

@@ -1838,6 +1838,10 @@
         "message": "遙測: Spektrum SRXL",
         "english": "Telemetry: Spektrum SRXL"
     },
+    "portsFunction_TELEMETRY_JRDMSS": {
+        "message": "遙測: JR DMSS",
+        "english": "Telemetry: JR DMSS"
+    },
     "portsFunction_ESC_SENSOR": {
         "message": "電變遙測",
         "english": "ESC Telemetry"
